@@ -16,7 +16,7 @@ data class GithubConfig(
 fun setupGithubWebClient(githubConfig: GithubConfig): WebClient =
     WebClient.builder().baseUrl(githubConfig.rawUserContentBaseURL)
         .defaultHeaders { headers ->
-            if (githubConfig.userName != null && githubConfig.accessToken != null) {
+            if (!githubConfig.userName.isNullOrBlank() && !githubConfig.accessToken.isNullOrBlank()) {
                 headers.setBasicAuth(githubConfig.userName, githubConfig.accessToken)
             }
         }
