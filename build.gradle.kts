@@ -29,6 +29,7 @@ dependencies {
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	implementation("net.sourceforge.plantuml:plantuml:8059")
 	implementation("io.netty:netty-resolver-dns-native-macos:4.1.75.Final:osx-aarch_64") // for Arm64
+	implementation("commons-io:commons-io:2.11.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
 	testImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")
