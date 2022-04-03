@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: GithubPlantUMLer
+
+github:
+  rawUserContentBaseURL: "https://raw.githubusercontent.com"
+  userName:
+  accessToken:
+  allowedFileExtensions:
+    - "puml"
+
+plantUML:
+  baseURL: "https://www.plantuml.com/plantuml"
