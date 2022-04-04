@@ -1,5 +1,5 @@
 # Github PlantUML-er
-This is an API that takes a github URL to a PlantUML file (puml) as an argument
+This is an API that takes a github URL of a PlantUML file (puml) as an argument
 and will redirect to a visual rendering of that PlantUML diagram. 
 This is useful for being able to create links or html `<img>`s to a rendering of the PlantUML file 
 without the need to pre-render it and host the output anywhere.
